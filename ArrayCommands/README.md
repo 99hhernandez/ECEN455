@@ -2,7 +2,7 @@ Consider the following signal
 
     X(t) = −2sin(2πf0t) + 4cos(πf0t + φ)
     
-where f0= 5 Hz, T = 2 sec, φ = π=4, fs= 100 Hz, and t = 0 : 1=fs: T .
+where f0= 5 Hz, T = 2 sec, φ = π/4, fs= 100 Hz, and t = 0 : 1/fs : T
 
 Use MATLAB to find:
 
