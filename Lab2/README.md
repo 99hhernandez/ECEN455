@@ -72,7 +72,7 @@ by
     Using Matlab plot the Binomial PMF for M = 20,40,60 and Mp = 3 and its approximation
 using Poisson PMF.
 
-4) Mean and Variance of Linear Functions of Random Variables: Generate a linear
+4) **Mean and Variance of Linear Functions of Random Variables**: Generate a linear
 function of two random variables of the form Z = aX+ bY, where aand bare constants.
 For simplicity, we assume that the random variables Xand Yare binomial with p = 0.5 and
 M = 10. Therefore, they can be obtained by using x=sum(rand(1,M)<p) in MATLAB. Then,
