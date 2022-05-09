@@ -68,5 +68,4 @@ the audio signal?
 ___
 μ-Law compressor ![comp](http://www.sciweavers.org/tex2img.php?eq=F%28x%29%3Dsgn%28x%29%20%5Cfrac%7Bln%281%2B%20%5Cmu%20%7Cx%7C%29%7D%7Bln%281%2B%20%5Cmu%29%7D%20%3B%20%20%201%20%5Cleq%20x%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
-Expander ![expa](http://www.sciweavers.org/tex2img.php?eq=%20F%5E%7B-1%7D%28y%29%3Dsgn%28y%29%281%2F%20%5Cmu%29%28%20%281%2B%20%5Cmu%29%5E%7B%7Cy%7C%7D1%29%20%20%3B%201%20%5Cleq%20y%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
-
+Expander ![expander](https://latex.codecogs.com/png.image?\dpi{110}\bg{white}&space;F^{-1}(y)=sgn(y)(1/&space;\mu)(&space;(1&plus;&space;\mu)^{|y|}-1)&space;&space;;&space;-1&space;\leq&space;y&space;\leq&space;1)
