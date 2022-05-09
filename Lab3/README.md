@@ -66,7 +66,7 @@ uniform quantizer?
 the audio signal?
 
 ___
-μ-Law compressor ![comp](http://www.sciweavers.org/tex2img.php?eq=F%28x%29%3Dsgn%28x%29%20%5Cfrac%7Bln%281%2B%20%5Cmu%20%7Cx%7C%29%7D%7Bln%281%2B%20%5Cmu%29%7D%20%3B%20%20%20-1%20%5Cleq%20x%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+μ-Law compressor ![comp](http://www.sciweavers.org/tex2img.php?eq=F%28x%29%3Dsgn%28x%29%20%5Cfrac%7Bln%281%2B%20%5Cmu%20%7Cx%7C%29%7D%7Bln%281%2B%20%5Cmu%29%7D%20%3B%20%20%201%20%5Cleq%20x%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
-Expander ![expa](http://www.sciweavers.org/tex2img.php?eq=%20F%5E%7B-1%7D%28y%29%3Dsgn%28y%29%281%2F%20%5Cmu%29%28%20%281%2B%20%5Cmu%29%5E%7B%7Cy%7C%7D-1%29%20%20%3B%20-1%20%5Cleq%20y%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+Expander ![expa](http://www.sciweavers.org/tex2img.php?eq=%20F%5E%7B-1%7D%28y%29%3Dsgn%28y%29%281%2F%20%5Cmu%29%28%20%281%2B%20%5Cmu%29%5E%7B%7Cy%7C%7D1%29%20%20%3B%201%20%5Cleq%20y%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
