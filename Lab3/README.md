@@ -8,13 +8,13 @@ we explore the effects of quantization.
 
 For a discrete time signal x<sub>1</sub>, x<sub>2</sub>, · · · , x<sub>n</sub>, the average power is
 
-![P_x](http://www.sciweavers.org/tex2img.php?eq=%20P_%7Bx%7D%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5En%20%7B%7B%5Cmid%20%20%20x_%7Bi%7D%20%5Cmid%7D%5E%7B2%7D%7D%20%20%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![P_x](http://www.sciweavers.org/tex2img.php?eq=%20P_%7Bx%7D%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5En%20%7B%7B%5Cmid%20%20%20x_%7Bi%7D%20%5Cmid%7D%5E%7B2%7D%7D%20%20%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=)
 
 If the signal x<sub>i</sub> is quantized to the signal y<sub>i</sub>, then the quantization noise
 (or error) signal is z<sub>i</sub> = x<sub>i</sub> − y<sub>i</sub>. Use the following definition for your mea-
 surements:
 
-![SQNR](http://www.sciweavers.org/tex2img.php?eq=SQNR%3D10%20log_%7B10%7D%20%5Cbig%28%20%5Cfrac%7BP_%7Bx%7D%7D%7BP_%7Bz%7D%7D%20%5Cbig%29%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![SQNR](http://www.sciweavers.org/tex2img.php?eq=SQNR%3D10%20log_%7B10%7D%20%5Cbig%28%20%5Cfrac%7BP_%7Bx%7D%7D%7BP_%7Bz%7D%7D%20%5Cbig%29%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=)
 
 ## EXERCISES
 
@@ -52,7 +52,7 @@ What is the SQNR?
 squared (RMS) value of the speech samples. Plot the histogram
 of the magnitude of the speech samples relative to the RMS value,
 i.e. if X[n] is a random variable that represents the amplitude of
-the speech sample at time n, plot the histogram of ![fig](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B%5Cmid%20X%5Bn%5D%20%5Cmid%7D%7BX_%7BRMS%7D%7D%20%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0).
+the speech sample at time n, plot the histogram of ![fig](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B%5Cmid%20X%5Bn%5D%20%5Cmid%7D%7BX_%7BRMS%7D%7D%20%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=).
 
     4. Design and test an 8 bit nonuniform PCM system using μ-law
 compressor and expander(or compander). Test your system using
@@ -66,7 +66,7 @@ uniform quantizer?
 the audio signal?
 
 ___
-μ-Law compressor ![comp](http://www.sciweavers.org/tex2img.php?eq=F%28x%29%3Dsgn%28x%29%20%5Cfrac%7Bln%281%2B%20%5Cmu%20%7Cx%7C%29%7D%7Bln%281%2B%20%5Cmu%29%7D%20%3B%20%20%201%20%5Cleq%20x%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+μ-Law compressor ![comp](http://www.sciweavers.org/tex2img.php?eq=F%28x%29%3Dsgn%28x%29%20%5Cfrac%7Bln%281%2B%20%5Cmu%20%7Cx%7C%29%7D%7Bln%281%2B%20%5Cmu%29%7D%20%3B%20%20%201%20%5Cleq%20x%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=)
 
-Expander ![expa](http://www.sciweavers.org/tex2img.php?eq=%20F%5E%7B-1%7D%28y%29%3Dsgn%28y%29%281%2F%20%5Cmu%29%28%20%281%2B%20%5Cmu%29%5E%7B%7Cy%7C%7D1%29%20%20%3B%201%20%5Cleq%20y%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+Expander ![expa](http://www.sciweavers.org/tex2img.php?eq=%20F%5E%7B-1%7D%28y%29%3Dsgn%28y%29%281%2F%20%5Cmu%29%28%20%281%2B%20%5Cmu%29%5E%7B%7Cy%7C%7D1%29%20%20%3B%201%20%5Cleq%20y%20%5Cleq%201&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=)
 
