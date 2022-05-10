@@ -51,7 +51,10 @@ Modify your program to use Gray mapping and count both bit errors and symbol err
 ## CONSTELLATION DATA
 
 1. Signal Constellation:
-  1. QPSK: ![fig1](https://latex.codecogs.com/png.image?\dpi{110}\bg{white}\left\{&space;1&plus;j,&space;1-j,&space;-1-j,&space;-1&plus;j\right\})
-  2. { 1+j, 1-j, -1-j, -1+j\right\}"
-  3. 16-QAM: {a+bj|a, b ε{-3, -1, 1, 3}}
-  4. 8-PSK: {}
+    1. QPSK: <img src="https://latex.codecogs.com/png.image?\large&space;\dpi{110}\bg{white}\left\{1&plus;j,&space;1-j,&space;-1-j,&space;-1&plus;j\right\}">
+    2. 16-QAM: <img src="https://latex.codecogs.com/png.image?\large&space;\dpi{110}\bg{white}\left\{a&plus;bj|a,&space;b&space;\epsilon&space;\left\{&space;-3,&space;-1,&space;1,&space;3\right\}\right\}">
+    3. 8-PSK: <img src="https://latex.codecogs.com/png.image?\large&space;\dpi{110}\bg{white}\left\{1,-1,j,-j,\frac{1}{\sqrt{2}}\left&space;(&space;-1-j&space;\right&space;),\frac{1}{\sqrt{2}}\left&space;(&space;-1&plus;j&space;\right&space;),\frac{1}{\sqrt{2}}\left&space;(&space;1-j&space;\right&space;),\frac{1}{\sqrt{2}}\left&space;(&space;1&plus;j&space;\right&space;)\right\}">
+2. Probability of Error
+    1. QPSK: <img src="https://latex.codecogs.com/png.image?\large&space;\dpi{110}\bg{white}P(e)=2Q\left(\sqrt{\frac{E_{s}}{N_{0}}}\right)-Q^{2}\left(\sqrt{\frac{E_{s}}{N_{0}}}\right)">
+    2. 16-QAM: <img src="https://latex.codecogs.com/png.image?\large&space;\dpi{110}\bg{white}P(e)=3Q\left(\sqrt{\frac{E_{s}}{5N_{0}}}\right)-\frac{9}{4}Q^{2}\left(\sqrt{\frac{E_{s}}{5N_{0}}}\right)">
+    3. 8-PSK: <img src="https://latex.codecogs.com/png.image?\large&space;\dpi{110}\bg{white}P(e)\leq&space;2Q\left(\sqrt{\frac{2E_{s}}{N_{0}}sin^{2}\frac{\pi&space;}{8}}\right)">
