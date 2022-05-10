@@ -59,7 +59,7 @@ per symbol without actually constructing the code:
 3. Extra Credit: Try building a code for "constitution.txt" based on jointly encoding two ASCII
 characters at a time. How many bits are required to encode the file? Is this a fair comparison? 
 
-
+---
 ### PROGRAMMING HINTS
 
 Writing a program that designs a Huffman code can be enlightening because the algorithm is
